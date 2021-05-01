@@ -6,8 +6,6 @@ from sklearn.model_selection import train_test_split
 
 print("Loading dataframe")
 
-#data_x = pd.read_pickle('data_x.pkl')
-#data_y = pd.read_pickle('data_y.pkl')
 df = pd.read_pickle('data_all.pkl')
 
 print(list(df.columns))
